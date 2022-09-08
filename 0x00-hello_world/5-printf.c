@@ -2,7 +2,7 @@
 
 /**
  * main - outputs a string of text as given
- * return: 0  on success and non-zero on failure.
+ * Return: 0  on success and non-zero on failure.
  */
 
 int main(void)

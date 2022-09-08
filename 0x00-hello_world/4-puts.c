@@ -2,7 +2,7 @@
 
 /**
  * main - outputs the string characters "Programming is like a bulding..."
- * return: exits status 0 on success, non-zero on error.
+ * Return: exits status 0 on success, non-zero on error.
  */
 int main(void)
 {
