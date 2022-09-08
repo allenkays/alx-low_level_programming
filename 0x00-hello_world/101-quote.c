@@ -7,6 +7,6 @@
 int main(void)
 {
 	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
-	fprintf(2,"anything");
+	fprintf(stderr,"anything");
 	return (1);
 }
