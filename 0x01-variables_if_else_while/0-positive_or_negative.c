@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
+#include <stdio.h>
 /**
  * main - outputs a random interger
  * Return: exits with 0 on success
