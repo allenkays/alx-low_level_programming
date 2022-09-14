@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _abs - computes absolute value of given number
+ * print_last_digit - prints the last digit of given number
  * @n: number to check
  * Return: 0 exit code on success
  */
-int _abs(int n)
+int print_last_digit(int n)
 {
 	int x, y;
 
