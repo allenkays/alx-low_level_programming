@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * sign - checks if number is +ve, -ve or 0
+ * print_sign - checks if number is +ve, -ve or 0
  * @n: number to check
  * Return: 1 exit code if character is lowercase; 0 otherwise
  */
-int sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
