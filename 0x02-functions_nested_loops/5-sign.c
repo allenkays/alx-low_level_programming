@@ -7,7 +7,7 @@
  */
 int sign(int n)
 {
-	if (i > 0)
+	if (n > 0)
 	{
 		_putchar(43);
 		_putchar(44);
