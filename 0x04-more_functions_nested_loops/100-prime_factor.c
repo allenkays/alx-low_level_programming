@@ -2,9 +2,9 @@
 
 /**
  * main - gives the largest prime factor of given number
- * Return - largest prime factor
+ * Return: largest prime factor
  */
-int main()
+int main(void)
 {
 	unsigned long int i, n = 612852475143;
 
