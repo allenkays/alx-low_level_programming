@@ -9,7 +9,7 @@ void puts_half(char *s)
 	int n;
 	int i = 0;
 
-	while (*(s + i))
+	while (s[i] != '\0')
 	{
 		i++;
 	}
@@ -19,7 +19,7 @@ void puts_half(char *s)
 		n += 1;
 	}
 	while (n < i)
-	}
+	{	
 		_putchar(*(s + n));
 		n++;
 	}
