@@ -13,13 +13,13 @@ void puts_half(char *s)
 	{
 		i++;
 	}
-	n = i/2;
+	n = i / 2;
 	if (i % 2)
 	{
 		n += 1;
 	}
 	while (n < i)
-	{	
+	{
 		_putchar(*(s + n));
 		n++;
 	}
