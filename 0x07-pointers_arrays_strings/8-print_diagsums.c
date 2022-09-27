@@ -12,9 +12,9 @@ void print_diagsums(int *a, int size)
 	int i, pos, pos1;
 
 	for (i = 0; i < size; i++)
-	{	
+	{
 		pos = (size * i) + i;
-		sum += *(a + pos); 
+		sum += *(a + pos);
 		pos1 = (size * i) + (size - 1 - i);
 		sum1 += *(a + pos1);
 	}
