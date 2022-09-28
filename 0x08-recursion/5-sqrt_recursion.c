@@ -1,5 +1,7 @@
 #include "main.h"
 
+int sqrt_checker(int n, int i);
+
 /**
  * _sqrt_recursion - returns the natural square root of n
  * @n: number to find natural square root of
@@ -7,7 +9,7 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt_checker(0, n));
+	return (sqrt_checker(n, 0));
 }
 /**
  * sqrt_checker - checks exact square root of given number
@@ -25,5 +27,5 @@ int sqrt_checker(int n, int i)
 	{
 		return (-1);
 	}
-	return (sqrt_checker(i + 1, n))
+	return (sqrt_checker(n, i + 1));
 }
