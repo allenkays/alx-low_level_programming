@@ -38,12 +38,8 @@ char *str_concat(char *s1, char *s2)
 	{
 		for (k = 0; k < i; k++)
 			(*(s + k)) = (*(s1 + k));
-		k = 0;
-		while (*(s2 + k))
-		{
+		for (k = 0; k < j; k++)
 			s[i + k] = (*(s2 + k));
-			k++;
-		}
 	}
 	return (s);
 	free(s);
