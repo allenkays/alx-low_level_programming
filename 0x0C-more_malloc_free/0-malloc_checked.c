@@ -8,7 +8,7 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *a = malloc(b * sizeof(int));
+	void *a = malloc(b);
 
 	if (a == NULL)
 	{
@@ -18,5 +18,4 @@ void *malloc_checked(unsigned int b)
 	{
 		return (a);
 	}
-	free(a);
 }
