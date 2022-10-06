@@ -10,7 +10,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i, j, k, l;
+	unsigned int i, j, k, l;
 	char *s;
 
 	if (s1 == NULL)
@@ -38,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	}
 	for (l = 0; l < i; l++)
-		s[l] == s1[l];
+		s[l] = s1[l];
 	for (l = 0; l < j; l++)
 		s[l + i] = s2[l];
 	s[i + j] = '\0';
