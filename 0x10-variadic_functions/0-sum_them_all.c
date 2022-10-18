@@ -1,4 +1,5 @@
-#include "main.h"
+#include "variadic_functions.h"
+#include <stdarg.h>
 
 /**
  * sum_them_all - gives the sum of all the parameters of given func
@@ -8,12 +9,14 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list a;
-	int i, sum;
+	unsigned int i, sum;
 
-	va_start(a, count);
+	va_start(a, n);
 
+	if (n == 0)
+		return (0);
 	sum = 0;
-	for (i = 0; i < count; i++)
+	for (i = 0; i < n; i++)
 		sum += va_arg(a, int);
 	va_end(a);
 	return (sum);
