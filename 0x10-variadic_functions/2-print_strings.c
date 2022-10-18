@@ -6,7 +6,6 @@
  * print_strings - outputs given srings with given delimiter
  * @separator: delimiter between intergers
  * @n: number of intergers passed to function
- * Return: sum of all the params
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
