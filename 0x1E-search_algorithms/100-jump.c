@@ -12,8 +12,8 @@
  */
 int jump_search(int *array, size_t size, int value)
 {
-	unsigned int i, jump, left, right;
-	
+	size_t i, jump, left, right;
+
 	if (array == NULL || size == 0)
 		return (-1);
 	jump = 0;
@@ -36,6 +36,5 @@ int jump_search(int *array, size_t size, int value)
 		if (array[i] == value)
 			return (i);
 	}
-
 	return (-1);
 }
